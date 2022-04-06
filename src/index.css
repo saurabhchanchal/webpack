@@ -1,0 +1,11 @@
+
+
+.redtext {
+    
+    color: tomato;
+    text-decoration: underline;
+    background-color: yellow;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
