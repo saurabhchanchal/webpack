@@ -9,3 +9,11 @@
     margin: auto;
     text-align: center;
 }
+
+.sizeadj {
+    margin-left:425px;
+    margin-top: 20px;
+    border: 1px solid red transparent;
+    width: 50%;
+    height: 400px;
+}

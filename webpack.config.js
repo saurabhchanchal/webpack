@@ -13,6 +13,13 @@ module.exports = {
     mode:"development" , //for rempving the warning
                        // development=>production we can write
      module: {
-         rules: [{ test: /\.css$/, use: ["style-loader", "css-loader"] }],
+         rules: [{ test: /\.css$/, use: ["style-loader", "css-loader"]
+       },
+       {
+         test: /\.(png|svg|jpg|jpeg|gif)$/i,
+         type: 'asset/resource',
+       },
+      ],
+      
             },                
 }; 

@@ -12,6 +12,7 @@
 //import form calc.js
 import { sum, mult } from "./calc.js";
 import "./index.css";
+import logo from "./ia.jpg";
 
 console.log(sum(10, 15));
 
@@ -25,7 +26,11 @@ h1.innerText = "my name saurabh";
 // h1.classList.add("redtext") //or
 h1.setAttribute("class", "redtext")
 
-root.append(h1);// append or appendhild both are same
+const image = document.createElement("img");
+image.src= logo;
+image.setAttribute("class", "sizeadj");
+
+root.append(h1,image);// append or appendhild both are same
 
 // style-loader, css-loader
 //CSS LOADER , image loader , font loader
